@@ -1,0 +1,3 @@
+# HugHashedWheelTimer
+
+与netty提供的HashedWheelTimer相比，在创建Timeout时可以指定一个key作为Timeout的标识，后面当具有同样标识的timeout被创建时，可以根据业务需求决定是否将之前存在的Timeout取消掉。
